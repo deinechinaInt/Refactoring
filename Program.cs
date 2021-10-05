@@ -6,7 +6,7 @@ namespace csharp
     public class Program
     {
         public static void Main(string[] args)
-        {
+        {            
             Console.WriteLine("OMGHAI!");
 
             IList<Item> Items = new List<Item>{
@@ -33,7 +33,7 @@ namespace csharp
                     SellIn = 5,
                     Quality = 49
                 },
-				// this conjured item does not work properly yet
+				
 				new Item {Name = "Conjured Mana Cake", SellIn = 3, Quality = 6}
             };
 
@@ -51,6 +51,8 @@ namespace csharp
                 Console.WriteLine("");
                 app.UpdateQuality();
             }
+
+            Console.ReadLine();
         }
     }
 }
