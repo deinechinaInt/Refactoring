@@ -1,5 +1,6 @@
 ﻿namespace csharp.ProductCategoriesChangers
 {
+    [ProductCategory(ProductCategories.AgedBrie)]
     public class AgedBrieCategoryChanger : BaseProductCategoryChanger
     {
         // "Aged Brie" actually increases in Quality the older it gets

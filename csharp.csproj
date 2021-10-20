@@ -62,18 +62,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ApprovalTest.cs" />
-    <Compile Include="ChangerSelector.cs" />
+    <Compile Include="ProductCategoriesChangers\ChangerSelector.cs" />
     <Compile Include="GildedRose.cs" />
-    <Compile Include="GildedRoseTest.cs" />
     <Compile Include="Item.cs" />
-    <Compile Include="ProductCategories.cs" />
+    <Compile Include="ProductCategory\ProductCategories.cs" />
     <Compile Include="ProductCategoriesChangers\AgedBrieCategoryChanger.cs" />
     <Compile Include="ProductCategoriesChangers\BackStagePassesCategoryChanger.cs" />
     <Compile Include="ProductCategoriesChangers\BaseProductCategoryChanger.cs" />
     <Compile Include="ProductCategoriesChangers\ConjuredCategoryChanger.cs" />
     <Compile Include="ProductCategoriesChangers\ICategoryChanger.cs" />
     <Compile Include="ProductCategoriesChangers\SulfurasCategoryChanger.cs" />
+    <Compile Include="ProductCategory\ProductCategoryAttribute.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

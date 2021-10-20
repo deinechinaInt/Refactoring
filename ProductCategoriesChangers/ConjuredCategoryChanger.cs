@@ -1,5 +1,6 @@
 ﻿namespace csharp.ProductCategoriesChangers
 {
+    [ProductCategory(ProductCategories.Conjured)]
     public class ConjuredCategoryChanger : BaseProductCategoryChanger
     {
         protected override int ChangedQuality(int initialQuality, int sellIn)

@@ -1,5 +1,6 @@
 ﻿namespace csharp.ProductCategoriesChangers
 {
+    [ProductCategory(ProductCategories.Sulfuras)]
     // "Sulfuras", being a legendary item, never has to be sold or decreases in Quality
     public class SulfurasCategoryChanger : BaseProductCategoryChanger
     {
